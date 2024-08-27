@@ -1,4 +1,27 @@
+main{
+    margin: 0 auto; 
+}
 
+#caixa1{
+    width: 1000px;
+    height: 400px;
+    background-color: blue;
+}
+#caixa2{
+    width: 1000px;
+    height: 400px;
+    background-color: orange;
+}
+#caixa3{
+    width: 1000px;
+    height: 400px;
+    background-color: red;
+}
+#caixa4{
+    width: 1000px;
+    height: 400px;
+    background-color: black;
+}
 
 
 
