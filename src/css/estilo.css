@@ -1,13 +1,4 @@
-body{
-}
-#caixa5{
-    font-family: "Poppins",sans-serif;
-    max-width: 1280px;
-    margin: 10 auto;
-    background-image: url(../imagens/balerion.png);
-    
 
-}
 .carrossel{
     position: fixed;
     top: 0;
