@@ -12,104 +12,157 @@ nav ul li{
     background: rgb(255,0,0);
     background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(0,0,0,0) 70%);   
 } 
-
+p{
+    font-size: 20px;
+}
 
 article{
     width: 70%;
     text-align: center;
-    margin: 0 auto;
+    margin: auto auto;
 }
 section{
+    width: 50%;
 }
-
+div{
+    width: auto;
+    overflow: auto;
+    display: flex;
+    box-sizing: border-box;
+}
+div section img{
+    width: 100%;
+}
+div article{
+    padding-right: 50px;
+    padding-left: 50px;
+}
 #caixa1{
-    width: 100vw;
-    height: 500px;
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 100%);
     color: white;
     padding: 20px;
 }
 #preto{
-    width: 100vw;
     height: 30px;
     background: rgb(255,255,255);
 background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
 }
 #branco{
-    width: 100vw;
     height: 50px;
     background: rgb(255,255,255);
 background: linear-gradient(0deg, rgba(255,255,255,1) 0%, #07BDFC 100%);
-
+}
+.verde{
+    height: 50px;
+    background: rgb(65,79,30);
+background: linear-gradient(180deg, rgba(65,79,30,1) 0%, rgba(81,185,220,1) 100%);
+}
+.azul{
+    height: 50px;
+    background: rgb(32,126,57);
+background: linear-gradient(180deg, rgb(32,126,57) 0%, #1656B5 100%);
+}
+.azuleCinza{
+    height: 50px;
+    background: rgb(22,86,181);
+background: linear-gradient(180deg, rgba(22,86,181,1) 0%, rgba(61,86,100,1) 100%);
 }
 #caixa2{
-    width: auto;
-    height: 400px;
-    display: flex;
     margin: 0 auto;
     padding: 30px;
     background: #07BDFC;
     background: linear-gradient(0deg, #07BDFC 0%, rgba(255,255,255,1) 40%);
 }
-
+#caixa2 section{
+    width: 20%;
+}
 
 #caixa3{
-    width: auto;
-    height: 450px;
-    display: flex;
     margin: 0 auto;
     background-color: #07BDFC;
 }
 #caixa3 article{
     padding-right: 50px;
 }
-#caixa3 section img{
-    width: 90%;
-}
-
 
 #caixa4{
-    width: auto;
-    height: 500px;
-    display: flex;
     margin: 0 auto;
     background: rgb(255,255,255);
-background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(252,234,178,1) 50%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(252,234,178,1) 50%, rgba(255,255,255,1) 100%);
     
 }
 #caixa4 article{
     padding: 40px;
-    background: rgb(252,234,178);
-background: radial-gradient(circle, rgba(252,234,178,1) 0%, rgba(255,255,255,1) 100%);
-}
-#caixa4 section img{
-    width: 90%;
 }
 
 #caixa5{
-    width: auto;
-    height: 600px;
-    display: flex;
     margin: 0 auto;
-    
+    background: rgb(239,215,141);
+    background: linear-gradient(0deg, rgba(239,215,141,1) 0%, rgba(255,255,255,1) 50%);
 }
 #caixa5 article{
-    margin-top: 20px;
     padding-right: 50px;
 }
-#caixa5 section img{
-    width: 90%;
-}
-#caixa5 section{
-    width: 60%;
-    display: flex;
-}
+
 
 #laranja{
     width: 100vw;
     height: 30px;
+    background: rgb(239,215,141);
+background: linear-gradient(180deg, rgba(239,215,141,1) 0%, rgba(30,36,36,1) 50%);
 }
+#caixa6{
+    margin: 0 auto;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 55%, rgba(132,112,27,1) 65%, rgba(65,79,30,1) 100%);
+}
+#caixa6 article{
+    padding-right: 50px;
+    color: white;
+}
+
+#caixa7{
+    margin: 0 auto;
+    overflow: auto;
+    background: rgb(32,126,57);
+background: linear-gradient(0deg, rgba(32,126,57,1) 0%, rgba(81,185,220,1) 100%);
+}
+#caixa7 article{
+    padding-right: 50px;
+}
+
+#caixa8{
+    margin: 0 auto;
+    overflow: auto;
+    background: #1656B5
+}
+#caixa8 article{
+    padding-right: 50px;
+    color: white;
+}
+
+#caixa9{
+    margin: 0 auto;
+    overflow: auto;
+    background: #3D5664;
+}
+#caixa9 article{
+    padding-right: 50px;
+    color: white;
+}
+
+#caixa10{
+    margin: 0 auto;
+    overflow: auto;
+    background: rgb(32,126,57);
+background: linear-gradient(0deg, rgba(32,126,57,1) 0%, rgba(81,185,220,1) 100%);
+}
+#caixa10 article{
+    padding-right: 50px;
+}
+
+
 
 
 
